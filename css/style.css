@@ -132,3 +132,29 @@ nav li a:hover{
 .btn:hover{
 	background: #000066;
 }
+
+.suggested{
+	margin: 70px 0;
+}
+
+.col-2{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+}
+
+.col-2 img{
+	width: 100%;
+}
+
+.col-2:hover{
+	transform: translateY(-5px);
+}
+
+.new-container{
+	max-width: 2000px;
+	margin: auto;
+	padding-left: 250px;
+	padding-right: 250px;
+}
