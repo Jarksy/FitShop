@@ -96,3 +96,39 @@ nav li a:hover{
 .navbar a:hover{
 	border-bottom: 4px solid #2388de;
 }
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col{	
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.btn{
+	display: inline-block;
+	background: #2388de;
+	color: white;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+}
+
+.btn:hover{
+	background: #000066;
+}
